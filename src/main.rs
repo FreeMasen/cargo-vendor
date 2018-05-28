@@ -62,6 +62,7 @@ enum VendorSource {
 }
 
 fn main() {
+    println!("{:?}", ::std::env::args());
     env_logger::init();
 
     // We're doing the vendoring operation outselves, so we don't actually want
